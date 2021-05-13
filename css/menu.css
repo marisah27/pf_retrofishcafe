@@ -1,0 +1,546 @@
+@charset "utf-8";
+/* CSS Document */
+
+.foodmenu01,.foodmenu02{
+  background-image: url("../images/menu/menu_bg.png");
+  background-repeat: no-repeat;
+  width: 943px;
+  height: 1344px;
+}
+
+.foodmenu01{
+  position: relative;
+  margin-bottom:80px;
+}
+
+.drinkmenu{
+  position: relative;
+  margin-bottom:80px;
+  background-image: url("../images/menu/drink_bg.png");
+  background-repeat: no-repeat;
+  width: 943px;
+  height: 1344px;
+  font-size: 1.5rem;
+  color:#39a7bf;
+  line-height: 2.5rem;
+}
+
+h4{
+  padding: 50px 70px;
+  color: #39a7bf;
+  font-size: 3rem;
+}
+
+.menu_tab li a{
+  display: block;
+    padding: 18px 50px 18px 40px;
+    background-color: #fff;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #39a7bf;
+    text-decoration: none;
+    border-radius: 10px 0px 2px 2px;
+    letter-spacing: 1px;
+}
+
+.menu_tab li a.current{
+  color:  #fff;
+  background-color: #39a7bf;
+}
+
+.menu_tab li a:hover{
+  color:  #FFF;
+  background-color: #86BFBF;
+}
+
+.menu_tab li{
+  margin-left:20px;
+}
+
+.menu_tab{
+    position: relative;
+    top: 13px;
+    left: 45px;
+}
+
+.drink_tab .menu_tab li a{
+  color:#9bba3a;
+}
+
+.drink_tab .menu_tab li a.current{
+  background-color: #9bba3a;
+  color:#fff;
+}
+
+.drink_tab .menu_tab li a:hover{
+  background-color: #c3d689;
+  color:#fff;
+}
+
+
+.content{
+  padding: 0 30px;
+  font-size: 1.5rem;
+  color:#39a7bf;
+  line-height: 2.7rem;
+}
+
+.content ul:not(.hotdog){
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.tanpin,.others{
+  list-style: none;
+  margin-left: -20px;
+}
+
+
+.hotdog{
+  position: relative;
+  z-index: 2;
+}
+
+.yellow_bg{
+  width: 850px;
+  height: 80px;
+  margin: 0 auto;
+  position: absolute;
+  top: 280px;
+  left: 45px;
+  /* z-index: -1; */
+  background-color: rgba(240,204,50,0.80);
+}
+
+h5{
+  margin-top: 40px;
+  font-size: 1.9rem;
+  letter-spacing: 4px;
+}
+
+h6{
+  margin-top: 40px;
+  font-size: 2.0rem;
+}
+
+.content_hotdog h6{
+  margin-right: 149px;
+}
+.content_hotdog {
+  width: 800px;
+  margin-left: 80px;
+}
+
+.content_hotdog .collabo{
+  background-image: url("../images/menu/collabo.png");
+  background-repeat: no-repeat;
+  width: 249px;
+  height: 118px;
+  text-align: center;
+}
+
+.content_hotdog .collabo h5{
+  margin: 10px 10px 0px 10px;
+  font-size: 1.6rem;
+}
+
+.content_hotdog .collabo h6{
+  margin: 0px 10px 10px 0px;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.content p{
+  margin-left: 10px;
+}
+
+.content_france img{
+  margin-top: 45px;
+}
+
+.content_hotsand{
+  width: 820px;
+  margin: 20px auto 0px;
+}
+
+.content_hotsand p{
+  width: 450px;
+}
+
+.content_hotsand img{
+  margin-top: 40px;
+  padding-right: 82px;
+}
+
+.banana{
+  position: absolute;
+  bottom:285px;
+  left: 350px;
+}
+
+.cheese{
+  position: absolute;
+  bottom: 400px;
+  right: 45px;
+}
+
+.line{
+  text-align: center;
+}
+
+.content_soup{
+  color: #b60093;
+  width: 800px;
+  margin: 15px auto 10px;
+}
+
+.content_soup ul{
+  margin:40px 30px 0 0;
+}
+
+
+/*foodmenu02*/
+.foodmenu02{
+  position: relative;
+  margin-bottom:80px;
+}
+
+.content_pasta{
+  width: 870px;
+  margin: auto;
+}
+
+.content_pasta img{
+  margin-top: 30px;
+}
+.content_pasta div{
+  width: 350px;
+  padding: 0px;
+}
+
+.other_menu{
+  padding: 0 0 10px 66px;
+  widows: 600px;
+  color: #39a7bf;
+}
+
+.other_menu span{
+  color: #555;
+  font-size: 85%;
+}
+
+.other_menu_img{
+  width: 200px;
+}
+
+.other_menu_img img:nth-of-type(1){
+  position: absolute;
+  top:340px;
+  right: 15px;
+}
+
+.other_menu_img img:nth-of-type(2){
+  position: absolute;
+  top: 480px;
+  right: 90px;
+}
+
+.other_menu_img img:nth-of-type(3){
+  position: absolute;
+  bottom: 460px;
+  right: 250px;
+}
+
+.other_menu_img img:nth-of-type(4){
+  position: absolute;
+  bottom: 350px;
+  right: 40px;
+}
+
+.content_setdrink{
+  color: #b60093;
+  margin: 0 70px;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+.content_setdrink h5{
+  margin-top: 20px;
+}
+
+.content_setdrink h7{
+  font-size: 2rem;
+  color: #efcc32;
+}
+
+.content_setdrink .capture{
+  color: #efcc32;
+}
+
+/*drinkmenu*/
+.drinkmenu2{
+  flex-direction: column;
+  margin-left:20px;
+}
+
+.drinkmenu{
+  margin-bottom:80px;
+  background-image: url("../images/menu/drink_bg.png");
+  background-repeat: no-repeat;
+  width: 943px;
+  height: 1344px;
+  font-size: 1.5rem;
+  color:#39a7bf;
+  line-height: 2.5rem;
+}
+
+.drinkmenu h4{
+  padding: 54px 0 50px 0;
+  color:#9bba3a;
+}
+
+.drinkmenu ul{
+  list-style: disc;
+  margin-left: 40px;
+}
+
+.drinkmenu img{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.specialcoffee{
+  position: relative;
+  width: 290px;
+  margin-right: 40px;
+  margin-top: 180px;
+  font-size: 100%;
+}
+
+.specialcoffee h5{
+  letter-spacing: 2px;
+}
+
+.specialcoffee p{
+  margin:40px 0 65px 0;
+}
+
+
+.specialcoffee img{
+  position:absolute;
+  right: 5px;
+  top: 100px;
+}
+
+.specialcoffee ul{
+  list-style: lower-roman;
+  margin-left: 20px;
+}
+
+.specialcoffee ul li{
+  margin-bottom: 20px;
+}
+
+.alcohol{
+  padding-top: 20px;
+  width: 290px;
+}
+
+.alcohol h5,.alcohol h6{
+  padding-top: 27px;
+  padding-bottom: 40px;
+}
+
+.alcohol ul{
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.alcohol ul li:nth-child(4){
+  margin-top: 20px;
+}
+
+.alcohol img{
+  margin-left: 150px;
+  margin-top:0px;
+}
+
+.smoothy{
+  width: 290px;
+  margin-top: 50px;
+  margin-left: -80px;
+}
+.smoothy h5, .smoothy h6{
+  margin-bottom: 10px;
+}
+
+.smoothy ul{
+  list-style: disc;
+  margin-left: 40px;
+}
+
+@media screen and (max-width:640px) {
+
+.foodmenu01, .foodmenu02, .drinkmenu{
+background: none;
+    width: auto;
+    margin-right: 10px;
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 20px;
+    box-sizing:border-box;
+}
+
+.drinkmenu{
+  padding: 0 30px;
+}
+
+h4{
+  font-size: 2.5rem;
+  padding: 30px 20px;
+}
+
+h5{
+  border-top: dotted;
+    padding-top: 10px;
+}
+h6{
+  margin:14px;
+}
+
+.menu_tab {
+    width: 70%;
+    position: relative;
+    top: 13px;
+    left: 0px;
+    flex-direction: row;
+}
+
+
+.menu_tab li a {
+  font-size: 1rem;
+  font-size: 1rem;
+  padding: 11px 33.5px;
+}
+
+.subtitle{
+  margin-bottom: 20px;
+}
+
+.menu_tab li {
+    margin-left: 11px;
+}
+
+.main .totop {
+  width: 15%;
+    margin-left: auto;
+}
+
+.yellow_bg,.cheese,.line,.other_menu_img img:nth-of-type(1),.other_menu_img img:nth-of-type(4) {
+  display:none;
+}
+
+.hotdog{
+  flex-direction: row;
+position: static;
+}
+
+.content_hotdog{
+  width: auto;
+  margin-left: 0;
+}
+
+.content_france img {
+  width:60%;
+  margin: 20px auto 0px;
+}
+
+.banana{
+bottom: 32%;
+    right: 5%;
+}
+
+.content_hotsand,.content_soup,.content_pasta{
+  width:auto;
+}
+
+.content_hotsand img {
+  padding: 0 0 0 56px;
+  width:60%
+}
+
+.other_menu {
+  padding:0px;
+}
+
+.other_menu_img img:nth-of-type(2) {
+  top: 41%;
+  right: 0;
+  width:35%;
+}
+
+.other_menu span{
+  font-size:77%
+}
+
+.other_menu_img img:nth-of-type(3){
+  width: 38%;
+  right: 10%;
+  bottom: 41%;
+}
+
+.content_setdrink {
+  text-align: center;
+  margin: 0 15px;
+}
+.content_setdrink p{
+  margin:0;
+  font-size:1.3rem;
+}
+
+.drinkmenu img{
+  margin-left: 52%;
+  width: 44%;
+}
+
+.drinkmenu h4{
+  padding: 60px 0 10px;
+}
+
+.drinkmenu h5{
+  margin-top:23px;
+}
+
+.drinkmenu img {
+  margin-left:60%;
+right: -28px;
+  }
+.specialcoffee{
+  margin-top:0px;
+}
+.alcohol h5{
+  padding:0px;
+}
+.smoothy{
+  width: auto;
+    margin: 0 0 30px 0;
+}
+
+.content_hotsand p{
+  width:auto;
+}
+
+h2 img {
+  width:30%
+}
+
+.content_pasta div{
+  width:auto;
+}
+
+.drinkmenu2{
+  margin:0;}
+    
+    
+    }
+

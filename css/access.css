@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.info_map{
+  position:relative;
+}
+
+.info_map_btn{
+    display: flex;
+    position: absolute;
+    top: -1px;
+    right: 15px;
+    padding: 8px 44px 8px 54px;
+    border-radius: 0 0 0 10px;
+    background: #39a7bf;
+    letter-spacing: 2px;
+    color: #fafafa;
+}
+.info_map a {
+    text-decoration: none;}
+    
+.info_map a:hover{
+  opacity:.7;
+}
+
+.access_inner{
+  opacity:0;
+  transform: translate(0px, 50px); /* フェードインで動く高さを指定 */
+  transition: all 2000ms; /* フェードインにかかる時間を指定 */
+}
+
+
+h5{
+  font-size:2.4rem;
+  color:#39a7bf;
+  margin:35px 0 35px;
+  text-align:center;
+}
+
+dl{
+letter-spacing: 0.1rem;
+    margin-left: 62px;
+    background-color: #39a7bf;
+    padding-left: 37px;
+    padding-bottom:20px;
+    width: 11%;
+    margin-bottom:80px;
+    font-size:1.6rem;
+}
+
+dt{
+  float:left;
+  clear:left;
+  width:150px;
+  height:auto;
+  padding:10px 0 5px;
+  margin-left:10px;
+  color:#fff;
+  font-weight:800;
+}
+
+dd{
+  padding:10px 0 5px 150px;
+  border-bottom:1px solid #fff;
+  width: 578px;
+}
+
+dd a{
+  color:#555;
+}
+
+/*------------------------------------------*/
+
+/*------------------*/
+/*---レスポンシブ---*/
+/*------------------*/
+
+@media screen and (max-width:640px) {
+
+a[href^="tel:"]{
+  pointer-events: none;
+}
+
+dl{
+  margin: 0 0 40px;
+  width: 94%;
+  background-color: rgba(255,255,255,0.7);
+  padding-left:10px;
+  font-size:1.4rem;
+  }
+
+dt{
+  float: none;
+  color:#39a7bf;
+  padding:10px 0 0 0;
+}
+
+dd{
+  width:90%;
+  padding: 0 10px 10px;
+  border-bottom:1px solid #555;
+  font-size:1.1rem;
+}
+
+.info_map iframe{
+  height:260px;
+}
+
+.content_access .subtitle{
+  margin-left: 34%;
+  margin-top: 13%;
+}
+
+header h1{
+  width: 21%;
+    left: 20px;
+    top: -40px;
+}
+h5{
+  font-size: 1.7rem;
+    margin: 4%;
+}
+}

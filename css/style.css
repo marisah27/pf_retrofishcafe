@@ -1,0 +1,515 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+body, ul, dl, dd, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*---------------------------
+------色------
+背景         efe5d5
+ターコイズブルー     39a7bf
+灰色（文字等）......555
+ピンク........#E97DC7
+黄色.....efcc32
+紫.......#b60093
+
+------文字------
+1rem=10px
+---------------------------*/
+
+
+/*------共通------*/
+
+.ds_f {
+  display: flex;
+}
+
+.jc_sb {
+  justify-content: space-between;
+}
+
+.jc_sa {
+  justify-content: space-around;
+}
+
+.jc_c {
+  justify-content: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*------------------------------------------*/
+
+body {
+  font-size: 1.5rem;
+  font-family: "游ゴシック", "Yu Gothic UI", "Meiryo UI";
+  color: #555;
+  background-color: #efe5d5;
+}
+
+.wrap {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner {
+  width: 950px;
+  margin-left: 25%;
+}
+
+/*------------------------------------------*/
+/*------------*/
+/*---header---*/
+/*------------*/
+
+header {
+  position: relative;
+}
+
+header .f_nav {
+  background-image: url(../images/topnav.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  right: calc(50% + 375px);
+  height: 776px;
+  width: 215px;
+  animation: 3s ease-in 1s infinite reverse both running slidein;
+  z-index: 15;
+}
+
+header nav ul {
+  width: 215px;
+  flex-wrap: wrap;
+  padding: 180px 25px 45px;
+  display: flex;
+}
+
+header nav ul li {
+  width: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+header nav ul li:hover, header .sns ul li:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+  transition: all 0.3s ease 0s;
+}
+
+header nav ul li a {
+  color: #39a7bf;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+header .sns {
+  padding: 0px 45px;
+}
+
+header .sns ul {
+  display: flex;
+  justify-content: space-around
+}
+
+header .sns p {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/*ヘッダーロゴ*/
+
+header h1 {
+  position: absolute;
+  top: 20px;
+  right: 9%;
+}
+
+header .main_visual{
+  /*text-align:right;*/
+  position: relative;
+  left: calc(50% - 475px);
+}
+
+/*セミメイン画像*/
+
+header .semi_visual {
+  position: absolute;
+  bottom: -200px;
+  right: 0px;
+  box-shadow: 0 10px 25px 0 rgba(85, 85, 85, 0.5);
+}
+
+.menu-trigger, .batsu {
+  display: none;
+}
+
+/*ズームアウトスライドショー*/
+.slide-animation{
+  animation: fadezoom 8s 0s forwards;
+}
+@keyframes fadezoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
+/*----------*/
+/*---main---*/
+/*----------*/
+
+/*追記はここ*/
+
+
+/*-----h3-----*/
+
+
+main h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 0px 0px 60px 20px;
+  color: #39a7bf;
+}
+
+main h3 span {
+  color: #b60093;
+}
+
+/*-----波線-----*/
+@keyframes 
+namiKvAnime {
+ 0% {
+transform: translate3d(-5vw, 0, 0);
+}
+ 100% {
+transform: translate3d(0, 0, 0);
+}
+}
+
+.subtitle {
+  width: 300px;
+  overflow: hidden;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.subtitle .nami {
+  padding-bottom: 30px;
+  display: block;
+  height: 30px;
+  width: calc(100% + 5vw);
+  background-image: url(../images/nami_ptn_06.png);
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-size: 5vw auto;
+  animation: namiKvAnime 3.5s linear infinite;
+  -webkit-animation: namiKvAnime 3.5s linear infinite;
+}
+
+main .detail_message{
+  text-align: right;
+  border: 2px solid #aaa;
+  width: 190px;
+  height: 44px;
+}
+
+main .detail_message a{
+  position: relative;
+  bottom:8px;
+  right: 8px;
+  padding: 10px 0px;
+  color: #fff;
+  background-color: #39a7bf/*rgba(245,115,8,0.70)*/;
+  opacity:.75;
+  width: 192px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  line-height: 26px;
+  height:26px;
+  font-weight: 400;}
+  
+main .detail_message a::after{
+  content: "》";
+  display: inline-block;
+  margin-left: 20px;
+}
+main .detail_message a:hover{
+  color: #fff;
+  transition: all 300ms; 
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+}
+
+main .totop{
+  text-align:right;
+  margin-right:30px;
+  margin-bottom:30px;
+}
+
+main .totop:hover{
+  opacity:0.5;
+  cursor: pointer;
+}
+
+/*------------*/
+/*---footer---*/
+/*------------*/
+
+
+footer {
+  position: relative;
+  background-color: #39a7bf;
+  color: #fff;
+  height: 215px;
+  z-index: 25;
+}
+
+footer .f_address{
+  margin-top: 24px;
+}
+footer>img {
+  position: absolute;
+  bottom: 173px;
+  left: calc(50% - 650px);
+  z-index: 20;
+}
+
+footer p {
+  line-height: 2.4rem;
+  padding-top: 22px;
+}
+
+footer p small {
+  font-size: 1rem;
+    display: block;
+   position: relative;
+    top: 20px;
+    right: 15px;
+}
+
+footer .f_logo{
+  margin-top: 61px;
+}
+
+footer .f_contact{
+  font-size: 1.4rem;
+}
+
+footer .f_contact img {
+  position: absolute;
+  top: -40px;
+  right: 45px;
+}
+
+footer  a{
+  color: #fff;
+}
+
+footer .f_contact p{
+margin-top: 115px;
+}
+
+/*------------------------------------------*/
+
+/*------------------*/
+/*---レスポンシブ---*/
+/*------------------*/
+
+@media screen and (max-width:640px) {
+
+.inner, .wrap {
+  width: auto;
+ font-size:.75rem;
+}
+
+.inner{
+  margin-left: 3%;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.ds_f {
+  flex-direction: column;
+}
+
+header h1 {
+  width: 30%;
+  left: 20px;
+}
+
+header .main_visual {
+  left:0;
+}
+h2 img {
+  width: 38%;
+padding-left: 20px;
+}
+
+/*---トグルメニュー---*/
+
+.menu-trigger {
+  display: block;
+  position: fixed;
+  top: 217px;
+  right: 0px;
+  width: 20%;
+  z-index: 14;
+}
+
+header .f_nav{
+  background-size: 100%;
+  width: 39%;
+  animation: none;
+  position:fixed;
+  top: 5px;
+  right: 0;
+  transform: translateX(180px);
+  transition: all .5s;
+}
+
+header .f_nav.open{
+  transform: translateX(0); 
+}
+
+
+.batsu {
+  display: block;
+  width: 53%;
+  position: fixed;
+  top: 88px;
+  left: 35px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  opacity: 0; /* 透明度を0にすることで隠す */
+  transition: opacity 0.5s; /* 透明度の0→1になる速度 */
+}
+
+.overlay.open {
+  width: 100%;
+  height: 100%;
+  opacity: 1; /* メニューが表示されているときには背景が表示 */
+}
+
+
+header nav ul {
+ padding:177px 0px 29px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+header nav ul li {
+  width: 20%;
+  padding:13px 13px 0px 13px;
+}
+
+header .sns {
+  padding: 0px;
+}
+
+header .sns ul li {
+  width: 13%;
+  padding: 6px;
+}
+
+header .sns ul {
+  justify-content: center;
+}
+
+
+h2 img {
+    width: 23%;
+}
+
+
+.subtitle {
+  padding-top:0px;
+  width:35%;
+}
+
+h2{
+  width:150%;
+}
+
+main h3 {
+  font-size: 1.4rem;
+}
+
+header nav ul li a {
+  font-weight:100;
+}
+
+.art_img2{
+  padding:2%;
+}
+  
+footer img {
+    width: 5%;
+  }
+  footer .f_contact p{
+    display: none;
+  }
+
+  footer .f_logo img{
+width: 21%;
+    position: absolute;
+    top: 59px;
+    right: 59px;
+  }
+  footer p small {
+    font-size: 1rem;
+    display: block;
+    position: absolute;
+    top:188px;
+    /* text-align: center; */
+    right: 4px;
+}
+  footer p{
+    padding-top: 3px;
+  }
+  footer .f_contact img {
+    width: 4%;
+    right: 20px;
+  }
+  
+}

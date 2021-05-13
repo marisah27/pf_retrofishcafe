@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*---message---*/
+.content_message{
+  position:relative;
+  margin-top:50px;
+  background-image:url(../images/message/concept_bg.png);
+  background-repeat:no-repeat;
+  width:787px;
+  height:663px;
+  text-align:center;
+}
+
+.content_message .subtitle{
+  margin:auto;
+}
+
+
+.content_message h4{
+  color:#b50092;
+  margin:50px 0;
+  font-size:2rem;
+}
+
+main p{
+  margin-bottom:40px;
+  letter-spacing: 0.1rem;
+  line-height: 2.7rem;
+  font-size:1.6rem;
+}
+
+.content_message img:not(h2 img){
+  position:absolute;
+  right: -155px;
+  bottom: -130px;
+  opacity:0;
+  transform: translate(0px, 60px);
+  transition: all 2000ms;
+}
+
+.ptn_dog{
+  margin:40px 0 -100px;;
+}
+
+
+/*---aboutowner---*/
+
+.content_owner{
+  position:relative;
+  margin-left:auto;
+  margin-top:50px;
+  background-image:url(../images/message/message_bg.png);
+  background-repeat:no-repeat;
+  width:818px;
+  height:865px;
+}
+
+
+.owner_img{
+  position:absolute;
+  left:-130px;
+  bottom:-30px;
+  opacity:0;
+  transform: translate(0px, 60px);
+  transition: all 2000ms;
+}
+
+.owner_inner{
+  margin-left:240px;
+}
+
+.owner_inner p:nth-of-type(1){
+  margin-top:40px;
+}
+
+.content_owner .subtitle+img{
+  position:absolute;
+  top:120px;
+  right:90px;
+  opacity:0;
+  transition: all 5000ms;
+}
+
+.content_owner .subtitle{
+  margin-left:55px;
+}
+
+.content_owner .link{
+  margin-left:200px;
+}
+
+.content_owner .link img{
+  margin:20px;
+}
+
+.content_owner .link a:nth-of-type(2){
+  padding-top:10px;
+}
+
+.content_owner .link a:hover{
+  opacity:0.6;
+  transition: all 0.3s;;
+}
+
+
+/*---dogs---*/
+.dogs{
+  position:relative;
+  margin: 70px 26px 0px;
+  box-sizing: border-box;
+  width: 1003px;
+  height: 1150px;
+}
+
+.dogs h2{
+  padding: 20px 0 40px 5px;
+  font-size: 2.7rem;
+  color: #39a7bf;
+}
+
+
+.dogs_picture img:nth-of-type(1){
+  position:absolute;
+  right: 135px;
+  top: 121px;
+}
+.dogs_picture img:nth-of-type(2){
+  position:absolute;
+  right: 90px;
+  top: 39%;
+}
+
+
+.dogs_picture2 img:nth-of-type(1){
+  position:absolute;
+  left: 31px;
+  bottom: 242px;
+}
+.dogs_picture2 img:nth-of-type(2){
+  position: absolute;
+left: 150px;
+    bottom: 10%;
+}
+
+.dogs h6{
+  font-size:2.2rem;
+  color:#39a7bf;
+}
+
+.dogs_sentence{
+  padding: 100px 80px;
+}
+
+.dogs_sentence p,.dogs_sentence2 p{
+  margin:20px;
+}
+
+.dogs_sentence2{
+  margin-left: 50%;
+  margin-top: 15%;
+}
+
+@media screen and (max-width:640px) {
+.ptn_dog,.owner_img{
+  display:none;
+}
+
+main p{
+  font-size:1rem;
+  margin-bottom:6%
+}
+
+.subtitle {
+  padding-top:0px;
+  margin-bottom:0px;
+}
+
+.content_message h4 {
+    margin: 7%;
+    font-size: 1.3rem;
+}
+
+.content_message {
+  background:none;
+  width:auto;
+  height:440px;
+  }
+
+.content_message h2{
+  width:auto;
+}
+
+.content_message h2 img{
+  width: 55%;
+  padding-left: 0px;
+}
+.content_owner {
+  margin-top:90px;
+  background:none;
+  width:auto;
+  height:auto;
+}
+
+.content_message img:not(h2 img) {
+  width:33%;
+  right:0;
+  bottom:-25%;
+}
+
+.content_owner .subtitle+img {
+  width: 20%;
+  right: 14%;
+  top: 7%;
+}
+
+.dogs{
+  width:auto;
+  margin: 2% 5%;
+  height: auto;
+}
+
+.dogs_picture img,.dogs_picture2 img{
+  width:25%;
+}
+
+.owner_img {
+  position:relative;
+  bottom:0;
+  left:0;
+}
+
+.owner_inner {
+  margin:5%;
+  text-align:center;
+}
+
+.content_owner .link {
+  margin:0px;
+  flex-direction: row;
+}
+
+.content_owner .link img {
+  margin:0px;
+  width:70%;
+}
+
+.content_owner .link a:nth-of-type(2) {
+  padding-top: 7px;
+}
+
+.dogs h2 {
+  padding:0px;
+  font-size: 2rem;
+}
+
+.dogs_sentence {
+  padding:0px;
+  }
+  
+.dogs_sentence p, .dogs_sentence2 p{
+  margin:5%;
+  font-size:80%;
+}
+
+.dogs_picture img:nth-of-type(1) {
+  right: 6%;
+    top: 17%;
+  }
+.dogs_picture img:nth-of-type(2) {
+  right: 0;
+    top: 35.5%;
+}
+
+.dogs h6 {
+  font-size:1.8rem;
+  color:#b50092;
+}
+
+.dogs_picture2 img:nth-of-type(1) {
+  left:0;
+  bottom:10%;
+}
+
+.dogs_picture2 img:nth-of-type(2) {
+  left:10%;
+  bottom:0;
+}
+
+.dogs_sentence2 {
+  margin-top:0px;
+}
+
+.content_owner .subtitle {
+    margin-left: 20px;
+}
+  

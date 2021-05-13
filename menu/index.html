@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Retrofish Cafe | MENU</title>
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/menu.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="../favicon.ico">
+
+<script src="../assets/js/jquery-3.6.0.min.js"></script>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/slick-1.8.1/slick/slick.js"></script>
+
+</head>
+
+<body>
+  <div class="wrap">
+  <header>
+  <div class="f_nav">
+    <div class="batsu">
+      <img src="../assets/images/closebtn.png" width="45" height="48" alt="バツ印">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html"><img src="../assets/images/nav01.png" width="45" height="48" alt="home">Home</a></li>
+        <li><a href="../message/index.html"><img src="../assets/images/navi02.png" width="45" height="48" alt="home">Message</a></li>
+        <li><a href="index.html"><img src="../assets/images/navi03.png" width="45" height="48" alt="home">Menu</a></li>
+        <li><a href="../news/index.html"><img src="../assets/images/navi04.png" width="45" height="48" alt="home">Event/News</a></li>
+        <li><a href="../party/index.html"><img src="../assets/images/navi05.png" width="45" height="48" alt="home">Party</a></li>
+        <li><a href="../access/index.html"><img src="../assets/images/navi06.png" width="45" height="48" alt="home">Access</a></li>
+      </ul>
+    </nav>
+    
+    <div class="sns">
+      <p>Fllow us</p>
+      <ul>
+        <li><a href="#"><img src="../assets/images/sns01.png" width="37" height="36" alt="facebook"></a></li>
+        <li><a href="#"><img src="../assets/images/sns02.png" width="37" height="36" alt="facebook"></a></li>
+        <li><a href="#"><img src="../assets/images/sns03.png" width="37" height="36" alt="facebook"></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="main_visual">
+    <img src="../assets/images/menu/mainvisual_food.png" width="1110" alt="お店の外観">
+  </div>
+  
+      <!--レスポンシブ用背景-->
+  <div class="overlay"></div>
+  
+  <h1><a href="../index.html"><img src="../assets/images/logo_white.png" width="294" height="205" alt="retrofishロゴ"></a></h1>
+  
+  <!--レスポンシブ用ボタン-->
+  <div class="menu-trigger">
+    <img src="../assets/images/togglemenu.png" alt="メニューボタン">
+  </div>
+    </header>
+  
+  
+  <main class="inner">
+    
+    <div class="subtitle">
+      <span class="nami"></span>
+      <h2><img src="../assets/images/menu/ttl_menu_03.png" width="90" height="27" alt="メニュー"></h2>
+    </div>
+    
+    <!--tab(jQuery)-->
+    <div class="menu_content">
+      <ul class="menu_tab ds_f">
+        <li><a href="#sec1" class="current">FOOD MENU1</a></li>
+        <li><a href="#sec2">FOOD MENU2</a></li>
+        <li><a href="#sec3">DRINK MENU</a></li>
+      </ul>
+  
+    <div class="foodmenu01" id="sec1">
+    <h4>HOTDOG & SANDWICHES</h4>
+    
+      <div class="content">
+        <ul class="ds_f jc_c hotdog">
+          <li><img src="../assets/images/menu/hotdog01.png" width="248" height="228" alt="チリドック"></li>
+          <li><img src="../assets/images/menu/hotdog02.png" width="248" height="228" alt="プレーンドック"></li>
+          <li><img src="../assets/images/menu/hotdog03.png" width="248" height="228" alt="チーズドック"></li>
+        </ul>
+        <div class="yellow_bg"></div>
+        
+      <div class="content_hotdog">
+        <div class="foodttl ds_f jc_sb">
+          <h5>HOTDOG SET</h5>
+          <h6>1,000yen</h6>
+        </div>
+        <p>ホットドック（以下よりお選び下さい）・スープ・サラダ・ドリンク付</p>
+        <div class="ds_f jc_sb">        
+          <ul>
+            <li>プレーンドック</li>
+            <li>チリドック</li>
+            <li>チーズドック</li>
+            <li>チョリソードック</li>
+            <li class="tanpin">単品(300yen)</li>
+          </ul>
+        <!---->
+          <div class="collabo">
+            <h5>駒込ビールコラボセット</h5>
+            <h6>1,100yen</h6>
+            <p>駒込ビールとホットドックセット</p>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+      <div class="content ds_f jc_sb content_france">
+        <img src="../assets/images/menu/hotsand01.png" width="286" height="164" alt="フランスパンドック">
+        
+        <div>
+          <div class="foodttl ds_f jc_sb">
+            <h5>FRANCEPANDOG SET</h5>
+            <h6>1,100yen</h6>
+          </div>
+          <p>フランスパンドック（以下よりお選び下さい）・スープ・サラダ・ドリンク付</p>
+          <ul>
+            <li>BTL</li>
+            <li>卵レタストマト</li>
+            <li>ハムチーズ</li>
+            <li class="tanpin">単品(400yen)</li>
+            <li class="others">駒込ビールとセットでご注文の場合1,100yen</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="content ds_f jc_sb content_hotsand">
+        <div>
+          <div class="foodttl ds_f jc_sb">
+            <h5>HOT SAND</h5>
+            <h6>1,100yen</h6>
+          </div>
+          <p>ＨＯＴサンド（ハム・チーズ・バナナ入り）<br/>
+             スープ・サラダ・ドリンク付<br/>
+             単品(400yen)
+           </p>
+        </div>
+        <img src="../assets/images/menu/hotsand02.png" width="264" height="168" alt="HOTサンド">
+      </div>
+      
+      <!--装飾と区切りライン-->
+      <div class="banana"><img src="../assets/images/menu/banana.png" width="80" height="80" alt="バナナのイラスト"></div>
+      <div class="cheese"><img src="../assets/images/menu/cheese.png" width="74" height="62" alt="チーズのイラスト"></div>
+      
+      <div class="line"><img src="../assets/images/menu/menu_line.png" width="749" height="10"></div>
+      
+      
+       <div class="content content_soup">
+          <div class="foodttl ds_f jc_sb">
+            <h5>SET SOUP</h5>
+            <img src="../assets/images/menu/soup.png" width="306" height="206" alt="スープ">
+            <ul>
+              <li>コーンスープ</li>
+              <li>クラムチャウダー</li>
+              <li>ミネストローネ</li>
+              <li class="tanpin">単品(300yen)</li>
+            </ul>
+          </div>
+       </div>
+    </div>
+    
+    
+      <ul class="menu_tab ds_f">
+        <li><a href="#sec1">FOOD MENU1</a></li>
+        <li><a href="#sec2" class="current">FOOD MENU2</a></li>
+        <li><a href="#sec3">DRINK MENU</a></li>
+      </ul>
+    <div class="foodmenu02" id="sec2">
+    <h4>PASTA & HAMBURG & STEW & OTHERS</h4>
+    
+      <div class="content ds_f jc_sb content_pasta">
+        <img src="../assets/images/menu/pasta01.png" width="490" height="223" alt="ナポリタン">
+        
+        <div>
+          <div class="foodttl ds_f jc_sb">
+            <h5>PASTA SET</h5>
+            <h6>1,100yen</h6>
+          </div>
+          <p>パスタ・サラダ・ドリンク付</p>
+          <ul>
+            <li>ナポリタン</li>
+            <li>ミートソース</li>
+            <li>カルボナーラ</li>
+            <li>ほうれん草とサーモン</li>
+            <li>明太子</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ds_f jc_sb content">
+        <div class="other_menu">
+          <div class="foodttl ds_f jc_sb">
+            <h5>HAMBURG STEAK</h5>
+            <h6>1,500yen</h6>
+          </div>
+          <p>和風クリームソースハンバーグ・スープ・サラダ・ドリンク付<br/>
+             <span>閉店した駒込の喫茶店“サンレモ”で人気だったメニュー</span>
+          </p>
+          
+          <div class="foodttl ds_f jc_sb">
+            <h5>STEW</h5>
+            <h6>1,300yen</h6>
+          </div>
+          <p>シチュー（以下よりお選び下さい）・サラダ・ドリンク付</p>
+          <ul>
+            <li>ビーフシチュー</li>
+            <li>クリームシチュー</li>
+            <li>ボルシチ</li>
+          </ul>
+            
+          <div class="foodttl ds_f jc_sb">
+            <h5>CUTLET</h5>
+            <h6>1,300yen</h6>
+          </div>
+          <p>カツレツ・スープ・サラダ・ドリンク付
+          </p>
+          
+          <div class="foodttl ds_f jc_sb">
+            <h5>MEET DORIA</h5>
+            <h6>1,300yen</h6>
+          </div>
+          <p>ミートドリア・スープ・サラダ・ドリンク付
+          </p>
+          
+          <div class="foodttl ds_f jc_sb">
+            <h5>OTHERS</h5>
+            <h6>700yen</h6>
+          </div>
+          <ul>
+            <li>チリコンカン</li>
+            <li>ソーセージ盛り合わせ</li>
+          </ul>
+          
+        </div>
+        
+        <div class="other_menu_img">
+          <img src="../assets/images/menu/pasta02.png" width="197" height="120" alt="明太子パスタ">
+          <img src="../assets/images/menu/humburg01.png" width="300" height="225" alt="ハンバーガー">
+          <img src="../assets/images/menu/stew.png" width="180" height="138" alt="シチューイラスト">
+          <img src="../assets/images/menu/cutlet.png" width="192" height="190" alt="カツレツ">
+        </div>
+      </div>
+    
+    <!--区切り線-->
+    <div class="line"><img src="../assets/images/menu/menu_line.png" width="749" height="10" alt="区切り線"></div>
+    
+     <div class="content_setdrink">
+        <h5>SET DRINK</h5>
+        <p>・コーヒー（アイス・HOT）／　・紅茶（ダージリン・アールグレイ・アッサム）<br/>
+          ・ハーブティー（ラベンダー・レモングラス・ローズ・カモマイル・ローズヒップ）<br/>
+          ・ソフトドリンク（りんごジュース・オレンジジュース・アップルタイザー・グレープタイザー）</p>
+           <h7>+100yen</h7>
+           <p class="capture">・ラテ（カフェラテ・カフェモカ・キャラメルラテ・ミントラテ）／・ココア　／ ・チャイ<br/>
+           ・スムージー（バナナ・ゴーヤとバナナ・いちご・ブルーベリー・マンゴー）<br/>
+           ・アルコール（ビール・ハイボール・ワイン）
+       <p>詳しくはドリンクメニューをご覧ください</p>
+       </p>
+     </div>
+   </div>
+   
+    <div class="drink_tab">
+      <ul class="menu_tab ds_f">
+        <li><a href="#sec1">FOOD MENU1</a></li>
+        <li><a href="#sec2">FOOD MENU2</a></li>
+        <li><a href="#sec3" class="current">DRINK MENU</a></li>
+      </ul>
+    </div>
+   <div class="drinkmenu ds_f jc_sa" id="sec3">
+     <div><!--flex用のdiv-->
+       <h4>DRINK MENU</h4>
+        <div class="foodttl ds_f jc_sb">
+          <h5>Coffee(HOT・ICE)</h5>
+          <h6>500yen</h6>
+        </div>
+        
+        <div class="foodttl ds_f jc_sb">
+          <h5>Latte</h5>
+          <h6>600yen</h6>
+        </div>
+        <ul>
+          <li>カフェラテ</li>
+          <li>カフェモカ</li>
+          <li>キャラメルラテ</li>
+          <li>ミントラテ</li>
+        </ul>
+
+        <div class="foodttl ds_f jc_sb">
+          <h5>HERB TEA</h5>
+          <h6>500yen</h6>
+        </div>
+        <ul>
+          <li>ラベンダー</li>
+          <li>レモングラス</li>
+          <li>ローズ</li>
+          <li>カモマイル</li>
+          <li>ローズヒップ</li>
+        </ul>
+
+        <div class="foodttl ds_f jc_sb">
+          <h5>TEA</h5>
+          <h6>500yen</h6>
+        </div>
+        <ul>
+          <li>ダージリン</li>
+          <li>アールグレイ</li>
+          <li>アッサム</li>
+        </ul>
+
+        <div class="foodttl ds_f jc_sb">
+          <h5>FRESH DEUCE</h5>
+          <h6>600yen</h6>
+        </div>
+          <p><span>果物そのまましぼりたてのジュース(りんご・オレンジ等)<br/>
+             本日のジュースはお伺いください</p>
+        <div class="foodttl ds_f jc_sb">
+          <h5>SOFT DRINK</h5>
+          <h6>500yen</h6>
+        </div>
+        <ul>
+          <li>アップルタイザー</li>
+          <li>グレープタイザー</li>
+        </ul>
+        
+        <img src="../assets/images/menu/smoothy.png" width="245" height="336" alt="スムージー">
+     </div>
+     
+     <div class="drinkmenu2"><!--flex用のdiv-->
+       <div class="specialcoffee">
+          <div class="foodttl ds_f jc_sb">
+            <h5>Special Coffee</h5>
+            <h6>600yen</h6>
+          </div>
+          <p>世界標準の味覚基準で<br/>
+             審査された<br/>
+             "スペシャルコーヒー"
+          </p>
+          <img src="../assets/images/menu/toacoffee.png" width="109" height="119" alt="トーアコーヒー">
+         <ul>
+           <li>
+            スペシャルコーヒーメニューより<br/>
+            お好きなコーヒー豆をお選び下さい
+           </li>
+           <li>
+            抽出方法は<br/>
+            サイフォン・プレス・水出しから<br/>
+            お選び頂けます
+           </li>
+         </ul>
+        </div>
+       
+        <div class="alcohol">
+          <div class="foodttl ds_f jc_sb">
+            <h5>ALCOHOL</h5>
+            <h6>500yen</h6>
+          </div>
+          <ul>
+            <li>ビール</li>
+            <li>ハイボール</li>
+            <li>ワイン（赤・白）</li>
+            <li>駒込ビール（900yen）</li>
+          </ul>
+          <img src="../assets/images/menu/alcohol.png">
+         </div>
+         <div class="smoothy">
+           <div class="foodttl ds_f jc_sb">
+             <h5>SMOOTHY</h5>
+             <h6>600yen</h6>
+           </div>
+           <ul>
+             <li>バナナ</li>
+             <li>ゴーヤとバナナ</li>
+             <li>いちご</li>
+             <li>ブルーベリー</li>
+             <li>マンゴー</li>
+            </ul>
+          </div>
+       </div></div>
+     
+   </div>
+   
+  </main>
+  </div><!--wrap閉じ-->
+  
+  
+ <footer>
+    <img src="../assets/images/footervis_07.png" width="300" height="98" alt="波のイメージ">
+    
+    <div class="ds_f jc_sa inner">
+     <div class="f_address">
+      <p>〒170-0003 東京都豊島区駒込3-30-2<br/>
+     （<a href="https://goo.gl/maps/Dc893tDVUhCdN8QB8"> Google Map<img src="../assets/images/icon_link.png" width="25" height="17" alt=""/></a>）
+      </p>
+      <p>
+      営業時間：10:00～19:00<br/>
+      定休日：水曜日・第2第4木曜日<br/>
+      営業時間・定休日は変更となる場合がございます
+      </p>
+    </div>
+    
+    <div class="f_logo"><a href="index.html"><img src="../assets/images/logo_noborder.png" width="148" height="83" alt=""/></a>
+    
+      <p><small>&copy;Retroﬁsh Cafe  All Rights Reserved.</small></p>
+      </div>
+    
+    <div class="f_contact">
+      <div class="totop"><a href="#"><img src="../assets/images/totop02.png" width="17" height="154" alt=""/></a></div>
+      <p>TEL：<a href="tel:+81-3-5980-8354">03-5980-8354</a><br/>
+      MAIL：<a href="mailto:info@s-proof.com">info@s-proof.com</a></p>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.inner{
+  width: 920px;
+  margin-left: auto;
+}
+
+.subtitle {
+  padding-top:0px;
+  margin-bottom:0px;
+  width: 200px;
+}
+
+.parallax-bg{
+  padding-left:12%
+}
+
+
+.scrollbox{
+  background-color: #fff;
+  margin-top:100px;
+  width:800px;
+  padding:20px 100px;
+  box-sizing:border-box;
+  margin-left: -7%;
+  opacity:0;
+  transform: translate(0px, 30px);
+  transition: all 2000ms;
+}
+
+.contact {
+  background-color: #fff;
+  opacity:.9;
+  margin-top:100px;
+  width:800px;
+  padding:20px 100px;
+  box-sizing:border-box;
+  margin-left: -7%;
+  margin-bottom: 65px;
+}
+
+.scrollbox p{
+  padding:10px 30px;
+}
+
+.scrollbox>p{
+  color:#39a7bf;
+  font-weight:800;
+  font-size:1.6rem;
+  text-align:center;
+}
+
+.scrollbox ul{
+  list-style:inside;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.art_img{
+  margin-top: 150px;
+}
+
+.scrollbox .contactabout p{
+  margin-bottom:15px;
+}
+
+main .detail_message {
+margin-top: 17px;}
+
+@media screen and (max-width:640px) {
+
+.inner{
+  width: auto;
+}
+
+.parallax-bg{
+  padding-left:10px;
+}
+
+.scrollbox{
+  width: auto;
+  padding: 10px;
+  margin:40px 10px 0px 1px;
+  opacity:0.5;
+}
+
+.contact {
+  width: auto;
+  padding: 10px;
+  margin: 40px 10px 40px 1px;
+}
+
+.scrollbox p,.contact p{
+  font-size: 100%;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.scrollbox ul {
+  margin-left:1%;
+}
+
+.scrollbox_img{
+  text-align:right;
+}
+
+.scrollbox_img img{
+  width:33%;
+}
+
+.art_img{
+  display:none;
+}
+
+.contet_art h2{
+ width: 55%;
+}
+
+main .detail_message {
+  margin-left:16%;
+  margin-top: 4%;
+}
+
+.art_content h2 img{
+width: 33%;
+}
+
+}
